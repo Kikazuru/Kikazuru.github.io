@@ -1,0 +1,1 @@
+import{a as t}from"./api-a2ad3bbc.js";async function u(){return await t.get("/topup_requests")}async function n(e){return await t.put(`/topup_requests/${e}/approve`)}async function r(e,s){return await t.put(`/topup_requests/${e}/decline`,{reason:s})}async function p(e,s){return await t.post("/topup_requests",{quota:e,issuerId:s})}export{n as a,r as d,u as l,p as r};

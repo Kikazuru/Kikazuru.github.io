@@ -1,0 +1,1 @@
+import{l as a,ak as e}from"./index-d82b7293.js";const s=a(),r=e.create({baseURL:"http://119.110.72.218/mccapi_staging/admin"});r.interceptors.request.use(t=>(t.headers.Authorization=s.token,t));export{r as a};
