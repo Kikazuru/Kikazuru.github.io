@@ -1,0 +1,1 @@
+import{l as t,aV as r,aW as e}from"./index-69d1502a.js";const s=t(),o=r.create({baseURL:"http://localhost:3000/admin",paramsSerializer:a=>e.stringify(a,{arrayFormat:"repeat"})});o.interceptors.request.use(a=>(a.headers.Authorization=s.token,a));export{o as a};
