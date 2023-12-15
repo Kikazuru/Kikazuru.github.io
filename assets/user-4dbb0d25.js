@@ -1,0 +1,1 @@
+import{a as r}from"./api-77cd4ed9.js";async function u({states:a,issuerId:s,limit:t=10,page:e=1}){return await r.get("/users",{params:{states:a,limit:t,page:e,issuerId:s}})}async function i(a){return await r.post("/users",a)}async function o(a,s){return await r.put(`/users/${a}`,s)}export{i as a,u as g,o as u};
