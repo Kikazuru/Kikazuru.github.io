@@ -1,1 +1,0 @@
-import{a as e}from"./api-a2ad3bbc.js";async function r(){return await e.get("/issuers")}async function u(s){return await e.post("/issuers",s)}async function n(s){return await e.delete(`/issuers/${s}`)}async function i(s,t){return await e.put(`/issuers/${s}`,t)}export{u as c,n as d,r as l,i as u};

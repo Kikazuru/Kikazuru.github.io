@@ -1,1 +1,0 @@
-const e=[r=>/.+@.+\..+/.test(r)?!0:"E-mail must be valid."],t=[r=>/^([a-zA-Z'-.]+(?:\s[a-zA-Z'-.]+)?)$/.test(r)?!0:"Name must be valid"],i=[r=>{if(Array.isArray(r)){if(r.length>0)return!0}else if(r)return!0;return"This input is required"}];export{e,t as n,i as r};

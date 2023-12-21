@@ -1,1 +1,0 @@
-import{a as r}from"./api-61c700d5.js";async function n({states:a,issuerId:t,limit:o=10,page:s=1}){return await r.get("/groups",{params:{states:a,limit:o,page:s,issuerId:t}})}async function u(a){return await r.post("/groups",a)}export{u as c,n as l};

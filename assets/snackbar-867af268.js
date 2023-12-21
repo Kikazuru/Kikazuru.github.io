@@ -1,1 +1,0 @@
-import{aX as u,r as a}from"./index-69d1502a.js";const l=u("snackbar",()=>{const s=a(""),t=a(null),e=a(!1);function n(r,o){s.value=r,t.value=o,e.value=!0}return{text:s,show:e,showSnackbar:n,status:t}});export{l as u};
